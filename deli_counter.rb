@@ -18,7 +18,7 @@ end
 def take_a_number(deli, name)
   new = []
   if deli.length < 1
-    new << name
+    deli << name
   end
   new
 end
