@@ -12,5 +12,6 @@ def line(katz_deli)
       new << x
       counter += 1
       puts "#{counter}. #{x}"
+    end
   end
 end
