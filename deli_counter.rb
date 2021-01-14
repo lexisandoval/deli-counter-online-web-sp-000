@@ -25,5 +25,10 @@ def take_a_number(deli, name)
     deli << name
     puts "Welcome, #{name}. You are number #{x} in line."
   end
+end
 
+def now_serving(deli)
+  if deli.length < 1
+    puts "There is nobody waiting to be served!"
+  end
 end
