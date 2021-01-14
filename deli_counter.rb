@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     puts "The line is currently: "
     counter = 0
-    new
+    new = []
     katz_deli.each do |x|
       new << x
       counter += 1
