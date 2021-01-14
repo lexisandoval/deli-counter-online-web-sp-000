@@ -10,7 +10,7 @@ def line(katz_deli)
     new = []
     katz_deli.each do |x|
       counter += 1
-      new << puts "#{counter}"
+      new <<  "#{counter}"
     end
     new
   end
