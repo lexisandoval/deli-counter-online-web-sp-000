@@ -20,4 +20,5 @@ def take_a_number(deli, name)
   if deli.length < 1
     new << name
   end
+  new
 end
