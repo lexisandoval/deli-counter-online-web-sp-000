@@ -19,5 +19,7 @@ def take_a_number(deli, name)
   new = []
   if deli.length < 1
     deli << name
+    puts "Welcome, #{name}. You are number 1 in line."
   end
+
 end
