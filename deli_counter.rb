@@ -16,5 +16,8 @@ def line(katz_deli)
 end
 
 def take_a_number(deli, name)
-  
+  new = []
+  if deli.length < 1
+    new << name
+  end
 end
