@@ -21,7 +21,7 @@ def take_a_number(deli, name)
     deli << name
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    x = deli.length 
+    x = deli.length
     deli << name
     puts "Welcome, #{name}. You are number #{x} in line."
   end
